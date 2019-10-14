@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 body {
-  font-family: arial;
+    font-family: 'Pacifico', cursive;
 }
 
 .container {
@@ -21,19 +23,22 @@ body {
 header {
   grid-column: span 3;
   padding: 30px;
+
   text-align: center;
   font-size: 1.4em;
-  background-color: #8B1F41;
+  background-color: #A387E8;
   color: white;
 }
 
 main {
   flex: 1;
   padding: 20px;
+  background-color: #A3A1FF;
+  font-family: 'Work Sans', sans-serif;
 }
 
 nav {
-  background-color: #E87722;
+  background-color: #94CBFF;
   padding: 20px;
 
 }
@@ -45,7 +50,7 @@ nav li {
 
 aside {
   padding: 20px;
-  background-color: #75787B;
+  background-color: #879FE8;
   color: white;
 }
 
@@ -58,7 +63,7 @@ footer {
   padding: 30px;
   text-align: center;
   font-size: 1.4em;
-  background-color: #8B1F41;
+  background-color: #D094FF;
   color: white;
 }
 
